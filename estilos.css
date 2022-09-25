@@ -40,6 +40,7 @@ img{
   justify-content: center;
   align-items: center;
 }
+
 .lds-facebook {
   display: inline-block;
   position: relative;
@@ -91,9 +92,9 @@ header{
   height:600px;
   background: linear-gradient(to bottom,
   rgba(211,135,20, .6),
-  rgba(29,241,171, .6),
+  rgba(29, 241, 170, 0.849),
   rgba(7,109,150, .45)
-  ), url(img/fondo.jpg);
+  ), url(img/header1920x1282.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -232,8 +233,8 @@ nav .enlaces a:hover{
 }
 
 .about{
-  background: url(img/teclado.jpg);
-  height: auto;
+  background: url(img/pasoCebra.jpg);
+  height: 2%;
 }
 
 .servicios{
