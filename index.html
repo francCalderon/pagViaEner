@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
-<!-- Hi, this is a template free, please suscribe to my chanel
-AlexCG Design, Thank you, I hope this template helps you -->
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <title>VíaEner</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
         integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 
 <body class="hidden">
@@ -27,14 +27,14 @@ AlexCG Design, Thank you, I hope this template helps you -->
         <nav id="nav" class="nav1">
             <div class="contenedor-nav">
                 <div class="logo">
-                    <img src="img/" alt="">
+                    <img src="img/logo.png" alt="">
                 </div>
                 <div class="enlaces" id="enlaces">
                     <a href="#" id="enlace-inicio" class="btn-header">Inicio</a>
-                    <a href="#" id="enlace-equipo" class="btn-header">Equipo</a>
+                    <a href="#" id="enlace-equipo" class="btn-header">Productos</a>
                     <a href="#" id="enlace-servicio" class="btn-header">Servicios</a>
-                    <a href="#" id="enlace-trabajo" class="btn-header">Trabajos</a>
-                    <a href="#" id="enlace-contacto" class="btn-header">Contacto</a>
+                    <a href="#" id="enlace-trabajo" class="btn-header">Contacto</a>
+                    <a href="#" id="enlace-contacto" class="btn-header">Firma</a>
                 </div>
                 <div class="icono" id="open">
                     <span>&#9776;</span>
@@ -43,149 +43,96 @@ AlexCG Design, Thank you, I hope this template helps you -->
         </nav>
         <div class="textos">
             <h1>VíaEner</h1>
-            <h2>Para tus Proyectos Viales</h2>
+            <h2>LO QUE NECESITAS EN SEGURIDAD VIAL</h2>
+            <a href="https://wa.me/56950600668?text=Hola,%20quisiera%20realizar%20una%20contización%20por%20tus%20productos"><i class="fab fa-whatsapp"></i></a>
         </div>
     </header>
     <main>
-        <section class="team contenedor" id="equipo">
-            <h3>Nustro Proposito</h3>
-            <p class="after">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque debitis optio neque
-                delectus porro sed distinctio dolorum atque nobis, rerum placeat dolorem mollitia quae asperiores
-                voluptatibus possimus. Atque, porro nostrum!</p>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <figure class="figure">
-                            <img src="img/300x300.jpg" alt="">
-                            <h4>K</h4>
-                            <p>Lorem ipsum dolor sit.</p>                            
+        <section class="contenedor py-5" id="equipo">
+            <h3>Algunos de Nuestros Productos</h3>
+            <p class="after">Poseemos productos de la mejor calidad</p>
+            <div class="container-fluid">
+                <div class="row justify-content-evenly py-5">
+                    <div class="col-md-4 text-center">
+                        <figure class="figure imgProd">
+                            <img src="img/producto1.jpg" class="figure-img img-fluid rounded" alt="">
                         </figure>
+                        <div class="texto-team">
+                            <h4>Anticorrosivos para Metales</h4>
+                            <p>Línea profesional</p>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <figure class="figure">
-                            <img src="img/300x300.jpg" alt="">
-                            <h4>K</h4>
-                            <p>Lorem ipsum dolor sit.</p>                            
+                    <div class="col-md-4 text-center">
+                        <figure class="figure imgProd">
+                            <img src="img/producto2.jpg" class="figure-img img-fluid rounded" alt="">
                         </figure>
+                        <div class="texto-team">
+                            <h4>Postes Omega </h4>
+                            <p>(1,5 - Negros - Galbanizado) Metales resistentes</p>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <figure class="figure">
-                            <img src="img/300x300.jpg" alt="">
-                            <h4>K</h4>
-                            <p>Lorem ipsum dolor sit.</p>                            
+                    <div class="col-md-4 text-center">
+                        <figure class="figure imgProd">
+                            <img src="img/producto3.jpg" class="figure-img img-fluid rounded" alt="">
                         </figure>
+                        <div class="texto-team">
+                            <h4>Esmalte Industrial</h4>
+                            <p>Línea profesional</p>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </section>
         <section class="about" id="servicio">
-            <div class="contenedor">
-                <h3>Nuestros servicios</h3>
-                <p class="after">Siempre mejorando para ti</p>
+            <div class="contenedor py-5">
+                <h3>Nuestro Compromiso</h3>
+                <p class="after">Se basa en la confianza de nuestros clientes</p>
                 <div class="servicios">
                     <div class="caja-servicios">
-                        <img src="img/heart.png" alt="">
-                        <h4>Creativos y asombrosos</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <img src="img/serv1.png" alt="">
+                        <h4>Entregando productos de calidad </h4>
+                        <p>Contribuhímos en el trabajo del cliente</p>
                     </div>
                     <div class="caja-servicios">
-                        <img src="img/responsive.png" alt="">
-                        <h4>Creativos y asombrosos</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <img src="img/serv2.png" alt="">
+                        <h4>Asistencia profesional</h4>
+                        <p>Aconsejando la utilidad del producto</p>
                     </div>
                     <div class="caja-servicios">
-                        <img src="img/efectos.png" alt="">
-                        <h4>Creativos y asombrosos</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <img src="img/serv3.png" alt="">
+                        <h4>Cuidando Caminos</h4>
+                        <p>Para un tránsito más seguro</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="work contenedor" id="trabajo">
-            <h3>Nuestro trabajo</h3>
-            <p class="after">Hacemos de algo simple algo extraordinario</p>
-            <div class="botones-work">
-                <ul>
-                    <li class="filter active" data-nombre='todos'>Todos</li>
-                    <li class="filter" data-nombre='diseño'>Diseño</li>
-                    <li class="filter" data-nombre='programacion'>Programacion</li>
-                    <li class="filter" data-nombre='marketing'>Marketing</li>
-                </ul>
-            </div>
-            <div class="galeria-work">
-                <div class="cont-work programacion">
-                    <div class="img-work">
-                        <img src="img/programacion1.jpeg" alt="">
+        <section class="work contenedor py-5" id="trabajo">
+            <h3>Contáctanos</h3>
+            <p class="after">Consulta por tus cotizaciones a través de nuestro formulario</p>
+            
+            <!-- formulario de contacto -->
+            <form class="container-fluid" action="enviar.php" method="get" name="contacto" role="form">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-auto py-3">
+                        <input type="text" name="name" class="text" id="name" placeholder="Nombre *" required="" />
+                        <input type="text" name="mail" class="text" id="mail" placeholder="Email" required="" />
+                        <input type="text" name="phone" class="subject" id="subject" placeholder="Teléfono"
+                            required="" />
                     </div>
-                    <div class="textos-work">
-                        <h4>Programacion</h4>
+                    <div class="col-auto py-3">
+                        <textarea name="message" class="message" placeholder="Escriba el detalle de su cotización aquí *" id="message"
+                            style="height: 200px"></textarea>
                     </div>
-                </div>
-                <div class="cont-work programacion">
-                    <div class="img-work">
-                        <img src="img/programacion2.jpeg" alt="">
-                    </div>
-                    <div class="textos-work">
-                        <h4>Programacion</h4>
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <input name="Submit" type="submit" id="boton" value="Enviar" />
+                        <input type="Reset" id="botonReset" value="Borrar todo">
                     </div>
                 </div>
-                <div class="cont-work programacion">
-                    <div class="img-work">
-                        <img src="img/programacion3.jpeg" alt="">
-                    </div>
-                    <div class="textos-work">
-                        <h4>Programacion</h4>
-                    </div>
+
                 </div>
-                <div class="cont-work diseño">
-                    <div class="img-work">
-                        <img src="img/diseño1.jpeg" alt="">
-                    </div>
-                    <div class="textos-work">
-                        <h4>Diseño</h4>
-                    </div>
-                </div>
-                <div class="cont-work diseño">
-                    <div class="img-work">
-                        <img src="img/diseño2.jpeg" alt="">
-                    </div>
-                    <div class="textos-work">
-                        <h4>Diseño</h4>
-                    </div>
-                </div>
-                <div class="cont-work diseño">
-                    <div class="img-work">
-                        <img src="img/diseño3.jpeg" alt="">
-                    </div>
-                    <div class="textos-work">
-                        <h4>Diseño</h4>
-                    </div>
-                </div>
-                <div class="cont-work marketing">
-                    <div class="img-work">
-                        <img src="img/marketing1.jpeg" alt="">
-                    </div>
-                    <div class="textos-work">
-                        <h4>Marketing</h4>
-                    </div>
-                </div>
-                <div class="cont-work marketing">
-                    <div class="img-work">
-                        <img src="img/marketing2.jpeg" alt="">
-                    </div>
-                    <div class="textos-work">
-                        <h4>Marketing</h4>
-                    </div>
-                </div>
-                <div class="cont-work marketing">
-                    <div class="img-work">
-                        <img src="img/marketing3.jpeg" alt="">
-                    </div>
-                    <div class="textos-work">
-                        <h4>Marketing</h4>
-                    </div>
-                </div>
-            </div>
+            </form>
         </section>
     </main>
     <footer id="contacto">
@@ -194,23 +141,26 @@ AlexCG Design, Thank you, I hope this template helps you -->
                 <img src="img/logo.png" alt="">
             </div>
             <div class="iconos">
-                <i class="fab fa-youtube"></i>
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-github"></i>
+                <a href="https://wa.me/56950600668?text=Hola,%20quisiera%20realizar%20una%20contización%20por%20tus%20productos"><i class="fab fa-whatsapp"></i></a>
             </div>
-            <p>La pasión e innovación es lo que nos distingue del resto</p>
+            <p>Nuestra atención y productos es lo que nos distingue del resto</p>
+            <h5>&copy; VíaEner | Derechos Reservados</h5>
         </div>
 
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous">
+    </script>
+
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
     <script src="js/filtro.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-    </script>
+
+
 </body>
 
 </html>
